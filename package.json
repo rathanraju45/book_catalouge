@@ -1,0 +1,11 @@
+{
+    "name": "my-fullstack-app",
+    "version": "1.0.0",
+    "scripts": {
+        "install": "npm install --prefix frontend && npm install --prefix backend",
+        "build": "npm run build --prefix frontend && npm run build --prefix backend",
+        "start": "npm run start --prefix backend"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
